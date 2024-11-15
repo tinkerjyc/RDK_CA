@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0ac1fe6c-3723-4d51-8a2f-202a69c5345e" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2YpD7fWO1jW1T4byVGwVSsiuoTD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Code1.executor": "Run",
+    "Application.Code2.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/RDK_CA",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Code2">
+    <configuration name="Code1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code1" />
+      <module name="GCS_CA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Code2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code2" />
+      <module name="GCS_CA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Code2" />
+        <item itemvalue="Application.Code1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ac1fe6c-3723-4d51-8a2f-202a69c5345e" name="Changes" comment="" />
+      <created>1701213463092</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701213463092</updated>
+      <workItem from="1701213464360" duration="620000" />
+      <workItem from="1701232583448" duration="1640000" />
+      <workItem from="1701234818764" duration="812000" />
+      <workItem from="1701235932414" duration="80000" />
+      <workItem from="1701236335911" duration="36000" />
+      <workItem from="1701297649254" duration="7475000" />
+      <workItem from="1701305504674" duration="84000" />
+      <workItem from="1701305661620" duration="357000" />
+      <workItem from="1701306252428" duration="977000" />
+      <workItem from="1701307289028" duration="59000" />
+      <workItem from="1701371536974" duration="83000" />
+      <workItem from="1703218719892" duration="642000" />
+      <workItem from="1703291465817" duration="24000" />
+      <workItem from="1731698617173" duration="1332000" />
+    </task>
+    <task id="LOCAL-00001" summary="Create TypeScript documentation">
+      <option name="closed" value="true" />
+      <created>1701213895601</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701213895601</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Create Code1 structure.">
+      <option name="closed" value="true" />
+      <created>1701234155723</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701234155723</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Wait my API key to be activated.">
+      <option name="closed" value="true" />
+      <created>1701302844407</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701302844407</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Bug fixing.">
+      <option name="closed" value="true" />
+      <created>1701303463341</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701303463341</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Finished Code1.">
+      <option name="closed" value="true" />
+      <created>1701305081142</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701305081142</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Finished Code1.">
+      <option name="closed" value="true" />
+      <created>1701305187183</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701305187183</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Bug fixing.">
+      <option name="closed" value="true" />
+      <created>1701305688255</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1701305688255</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Bug fixing.">
+      <option name="closed" value="true" />
+      <created>1701305800066</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1701305800066</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Achieved future upgrade one for code1 -- create warning for invalid city name.">
+      <option name="closed" value="true" />
+      <created>1701305939777</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1701305939777</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Achieved future upgrade one for code1 -- create warning for invalid city name.">
+      <option name="closed" value="true" />
+      <created>1701305999124</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1701305999124</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Achieved future upgrade one for code1 -- create warning for invalid city name.">
+      <option name="closed" value="true" />
+      <created>1701306014002</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1701306014002</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Achieved future upgrade one for code1 -- create warning for invalid city name.">
+      <option name="closed" value="true" />
+      <created>1701307205500</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1701307205501</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Fixing typos.">
+      <option name="closed" value="true" />
+      <created>1701307339225</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1701307339225</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Fixing typos.">
+      <option name="closed" value="true" />
+      <created>1701371599329</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1701371599329</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create TypeScript documentation" />
+    <MESSAGE value="Create Code1 structure." />
+    <MESSAGE value="Wait my API key to be activated." />
+    <MESSAGE value="Finished Code1." />
+    <MESSAGE value="Bug fixing." />
+    <MESSAGE value="Achieved future upgrade one for code1 -- create warning for invalid city name." />
+    <MESSAGE value="Fixing typos." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing typos." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.NoSuchElementException" package="java.util" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
