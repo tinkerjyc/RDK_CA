@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ac1fe6c-3723-4d51-8a2f-202a69c5345e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/google_code_gson.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GCS_CA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GCS_CA.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Code1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Code1.java" afterDir="false" />
-    </list>
+    <list default="true" id="0ac1fe6c-3723-4d51-8a2f-202a69c5345e" name="Changes" comment="update map by gson for better output" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -126,7 +120,7 @@
       <workItem from="1703218719892" duration="642000" />
       <workItem from="1703291465817" duration="24000" />
       <workItem from="1731698617173" duration="1347000" />
-      <workItem from="1731700184467" duration="2149000" />
+      <workItem from="1731700184467" duration="2295000" />
     </task>
     <task id="LOCAL-00001" summary="Create TypeScript documentation">
       <option name="closed" value="true" />
@@ -240,7 +234,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701371599329</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="update map by gson for better output">
+      <option name="closed" value="true" />
+      <created>1731702437969</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1731702437969</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,7 +256,8 @@
     <MESSAGE value="Bug fixing." />
     <MESSAGE value="Achieved future upgrade one for code1 -- create warning for invalid city name." />
     <MESSAGE value="Fixing typos." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing typos." />
+    <MESSAGE value="update map by gson for better output" />
+    <option name="LAST_COMMIT_MESSAGE" value="update map by gson for better output" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
