@@ -6,9 +6,11 @@ Two coding activity files are both in side the src folder
 
 ## Code1 is Making API Calls
 
-### Future Upgrades(1):
+### Future Upgrades(2/2):
 
-1. Create Map to store the JSON date with better outputs.
+1. (Achieved)~~Adding the edge cases for checking the incorrect city names.~~
+
+2. (Achieved)~~Create Map to store the JSON date with better outputs.~~
 
 ### Edge Case 1: Invalid City Name
 
@@ -23,14 +25,26 @@ Output wrong message
 Use update feature to replace the invalid city
 ![img_2.png](img_2.png)
 
-## Code2 is Pseudocode to code
+### Edge Case 2: Outputs Optimization 
+
+Fix Method:
+
+Add gson package
+```
+// Parse JSON response into a Map
+      Gson gson = new Gson();
+      Map<String, Object> weatherData = gson.fromJson(result.toString(), Map.class);
+```
+![img_5.png](img_5.png)
+
+## Code2 is Pseudocode to Code
 
 ### Inputs handled:
 ![img_3.png](img_3.png)
 
-### Edge Case: Invalid inputs
+### Edge Case: Invalid Inputs
 ![img_4.png](img_4.png)
 
-### Time and Space complexity:
+### Time and Space Complexity:
 1. Time: 𝑂(𝑛log𝑛)
 2. Space: 𝑂(𝑛)
