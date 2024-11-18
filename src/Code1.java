@@ -31,12 +31,12 @@ public class Code1 {
     try (Scanner sc = new Scanner(System.in)) {
       while (FLAG) {
         System.out.print("Please enter your command: ");
-        String userInput = sc.next();
+        String userInput = sc.nextLine();
 
         switch (userInput) {
           case "1":
             System.out.print("Enter the city name to check its weather: ");
-            String cityName = sc.next();
+            String cityName = sc.nextLine();
             checkWeather(cityName);
             break;
 
@@ -84,8 +84,10 @@ public class Code1 {
    * @param city the name of the city to fetch weather data for
    */
   private static void checkWeather(String city) {
+    String LOCATION = city.toLowerCase();
+    LOCATION = LOCATION.replaceAll(" ", "%20");
     String apiKey = "1661712e57e071ff5464c44baa52ab2c";
-    String urlString = "https://api.openweathermap.org/data/2.5/weather?q=" + city.toLowerCase() + "&appid=" + apiKey;
+    String urlString = "https://api.openweathermap.org/data/2.5/weather?q=" + LOCATION + "&appid=" + apiKey;
 
     try {
       StringBuilder result = new StringBuilder();
@@ -105,7 +107,7 @@ public class Code1 {
       // Display polished output
       System.out.println(formatWeatherOutput(weatherData));
     } catch (MalformedURLException e) {
-      System.out.println("Error: Invalid city name or URL.");
+      System.out.println("Error: Invalid city name.");
     } catch (IOException e) {
       System.out.println("Error: Unable to retrieve weather data. Please try again.");
     }
@@ -126,7 +128,6 @@ public class Code1 {
     output.append("Weather Details:\n");
     output.append("-----------------\n");
 
-    // Extract specific fields
     output.append("City: ").append(weatherData.get("name")).append("\n");
     Map<String, Object> mainData = (Map<String, Object>) weatherData.get("main");
     if (mainData != null) {
@@ -152,29 +153,43 @@ public class Code1 {
    * @param sc a Scanner object to read user input
    */
   private static void addCitiesToFavorites(Scanner sc) {
-    System.out.printf("You can add up to %d cities to your favorite list.%n", LIMIT);
+    int diff = LIMIT - favour.size();
+    System.out.printf("You can add up to %d cities to your favorite list one time.%n", LIMIT);
     System.out.print("Enter the number of cities you want to add: ");
-    int count = sc.nextInt();
+    String readIn = sc.nextLine();
+    int count = Integer.parseInt(readIn);
 
-    if (count > LIMIT || favour.size() + count > LIMIT) {
-      System.out.printf("You can only have up to %d cities in your favorites.%n", LIMIT);
+
+    if (favour.size() == LIMIT) {
+      System.out.println("Your favorite list is full, please use update command instead.");
       return;
     }
+
+    if (count > LIMIT) {
+      System.out.printf("You can only have up to %d cities in your favorites one time.%n", LIMIT);
+      return;
+    }
+
+    if (count > diff) {
+      System.out.printf("You only have %d city slots left in your favorites.%n", diff);
+      return;
+    }
+
+    String[] input = new String[count];
 
     System.out.println("Enter the names of the cities:");
 
     for (int i = 0; i < count; i++) {
-      String city = sc.next().toLowerCase();
-
-      // Check if the city is already in favorites
+      String city = sc.nextLine().toLowerCase();
       if (favour.contains(city)) {
         System.out.println("City already in favorites: " + city);
         continue;
       }
 
-      // Validate the city using checkWeather
+
       if (isValidCity(city)) {
-        favour.add(city);
+        input[i] = city;
+        favour.add(input[i]);
         System.out.println("Added: " + city);
       } else {
         System.out.println("Invalid city: " + city);
@@ -191,9 +206,10 @@ public class Code1 {
    * @return true if the city is valid, false otherwise
    */
   private static boolean isValidCity(String city) {
+    String LOCATION = city.toLowerCase();
+    LOCATION = LOCATION.replaceAll(" ", "%20");
     String apiKey = "1661712e57e071ff5464c44baa52ab2c";
-    String urlString = "https://api.openweathermap.org/data/2.5/weather?q=" + city.toLowerCase() + "&appid=" + apiKey;
-
+    String urlString = "https://api.openweathermap.org/data/2.5/weather?q=" + LOCATION + "&appid=" + apiKey;
     try {
       URL url = new URL(urlString);
       URLConnection urlCon = url.openConnection();
@@ -216,7 +232,8 @@ public class Code1 {
     System.out.printf("You can update up to %d cities in your favorite list.%n", LIMIT);
 
     System.out.print("Enter the number of cities you want to remove: ");
-    int count = sc.nextInt();
+    String input = sc.nextLine();
+    int count = Integer.parseInt(input);
 
     if (count > favour.size()) {
       System.out.println("You don't have enough cities to remove.");
@@ -224,17 +241,27 @@ public class Code1 {
     }
 
     System.out.println("Enter the names of the cities to remove:");
+
     for (int i = 0; i < count; i++) {
-      String city = sc.next().toLowerCase();
+      String city = sc.nextLine().toLowerCase();
       if (favour.remove(city)) {
         System.out.println("Removed: " + city);
       } else {
         System.out.println("City not found: " + city);
+        return;
       }
     }
 
     System.out.println("Now, add new cities to replace the removed ones.");
-    addCitiesToFavorites(sc);
+    for (int i = 0; i < count; i++) {
+      String city = sc.nextLine().toLowerCase();
+      if (favour.add(city)) {
+        System.out.println("Added: " + city);
+      } else {
+        System.out.println("City not found: " + city);
+        return;
+      }
+    }
   }
 
   /**
